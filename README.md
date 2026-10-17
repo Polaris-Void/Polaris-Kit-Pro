@@ -6,7 +6,7 @@ English | [فارسی](README.FA.md)
 
 </div>
 
-# PolarisKit-Pro ⚡
+# Polaris-Kit-Pro ⚡
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6?logo=windows&logoColor=white)](#)
@@ -16,7 +16,7 @@ English | [فارسی](README.FA.md)
 
 A centralized, single-executable administrative control hub that integrates all **Polaris-Void** native Windows utilities into a high-performance, dark-themed graphical user interface.
 
-PolarisKit-Pro bridges the gap between lightweight low-level system scripts (Batch, PowerShell, Registry) and modern desktop software. It eliminates external console popups by streaming live execution logs internally, manages administrator elevation seamlessly, and bundles interactive documentation for all integrated modules.
+Polaris-Kit-Pro bridges the gap between lightweight low-level system scripts (Batch, PowerShell, Registry) and modern desktop software. It eliminates external console popups by streaming live execution logs internally, manages administrator elevation seamlessly, and bundles interactive documentation for all integrated modules.
 
 ---
 
@@ -25,7 +25,7 @@ PolarisKit-Pro bridges the gap between lightweight low-level system scripts (Bat
 * **Single Portable Executable:** Zero installation, zero external runtimes. Entire runtime, embedded scripts, and fonts are packed into a single self-contained binary.
 * **Unified Single Elevation:** Automatically prompts for administrative elevation (UAC) once at launch (`requireAdministrator`). All underlying tools execute with inherited high integrity without interrupting workflows.
 * **Zero Console Popups (Silent Execution):** System operations run entirely in the background via `CREATE_NO_WINDOW`. Process stdout and stderr are captured and streamed line-by-line into the integrated real-time console.
-* **Byte-Exact Native Payloads:** All 11 original tools (19 `.bat`, `.reg`, and `.ico` files) are embedded within the application in Base64 encoding and staged on-demand inside `%TEMP%\PolarisKit-Pro`.
+* **Byte-Exact Native Payloads:** All 11 original tools (19 `.bat`, `.reg`, and `.ico` files) are embedded within the application in Base64 encoding and staged on-demand inside `%TEMP%\Polaris-Kit-Pro`.
 * **Integrated In-App Documentation Preview:** Built-in Markdown renderer with custom typography, syntax styling, zebra-striped tables, and clickable links for all 22 English and Persian module READMEs.
 * **Bilingual Dynamic Interface:** Instant live switching between English (LTR) and Persian (RTL) with embedded **Vazirmatn** typography.
 * **Process Isolation & Safe Termination:** The `STOP` control terminates child process trees cleanly via `taskkill /F /T` to prevent GUI lockups during extended background tasks.
@@ -36,7 +36,7 @@ PolarisKit-Pro bridges the gap between lightweight low-level system scripts (Bat
 
 ## Integrated Modules Matrix
 
-PolarisKit-Pro bundles all 11 standalone Polaris-Void utilities:
+Polaris-Kit-Pro bundles all 11 standalone Polaris-Void utilities:
 
 | # | Module | Category | Elevation | Target Folder | Description |
 |---|---|---|:---:|:---:|---|
@@ -65,7 +65,7 @@ PolarisKit-Pro bundles all 11 standalone Polaris-Void utilities:
 ## Installation & Usage
 
 ### Running Pre-Built Binary
-1. Download the latest `PolarisKit-Pro.exe` from the [Releases](https://github.com/Polaris-Void/PolarisKit-Pro/releases) page.
+1. Download the latest `Polaris-Kit-Pro.exe` from the [Releases](https://github.com/Polaris-Void/Polaris-Kit-Pro/releases) page.
 2. Run the executable. Accept the User Account Control (UAC) prompt.
 3. Select an operation from the **MODULES** column.
 4. If the selected module requires a target path (e.g., USB Immunizer, Renamer, Auditor), use the **BROWSE** button to lock the folder.
