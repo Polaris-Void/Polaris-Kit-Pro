@@ -1450,7 +1450,7 @@ class App(ctk.CTk):
         self.log("session: %s :: popups: ZERO (all output streams here)"
                  % ("ELEVATED ADMIN" if self.admin else "STANDARD (dev)"))
         self.log("font: Vazirmatn :: layout: RTL/FA + LTR/EN per paragraph")
-        self.log("staging bay :: %s (per-run, hash-verified, auto-purged)" % stage_base())
+        self.log("staging bay :: %s (per-run, hash-verified, auto-purged)" % os.path.basename(stage_base()))
         self.log("=" * 64)
         self.log("[TIP] pick a module, optionally lock a target folder, hit an action.")
         self.log("[TIP] each module ships its full GitHub README (EN/FA) + OPEN PROJECT button.")
